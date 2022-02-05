@@ -16,6 +16,10 @@ body {
   height: 100vh;
 }
 
+.header .hero .left-side {
+  margin-top: 8rem;
+}
+
 .header .hero .left-side h1 {
   color: #ffffff;
   font-weight: 700;
