@@ -1,0 +1,60 @@
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.menuToggle {
+  background: transparent;
+  color: #fff;
+  font-size: 2rem;
+  border: none;
+}
+
+.menu-area {
+  background: #000;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu-area .menuClose {
+  position: fixed;
+  top: 5%;
+  right: 5%;
+  background: transparent;
+  color: #fff;
+  padding: 0.3rem 0.7rem;
+  font-size: 2rem;
+  border: none;
+}
+
+.menu-area ul li {
+  list-style: none;
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.menu-area ul li a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.menu-area ul li a:hover {
+  color: #7358e9;
+}
+/*# sourceMappingURL=style.css.map */

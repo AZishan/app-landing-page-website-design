@@ -1,0 +1,52 @@
+$color1: #7358e9;
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+// navbar icon design
+.menuToggle {
+  background: transparent;
+  color: #fff;
+  font-size: 2rem;
+  border: none;
+}
+// Menu on click
+.menu-area {
+  background: #000;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  .menuClose {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    background: transparent;
+    color: #fff;
+    padding: 0.3rem 0.7rem;
+    font-size: 2rem;
+    border: none;
+  }
+  ul {
+    li {
+      list-style: none;
+      font-size: 2rem;
+      padding: 1rem;
+      text-align: center;
+      a {
+        color: #fff;
+        text-decoration: none;
+        transition: 0.3s;
+        &:hover {
+          color: $color1;
+        }
+      }
+    }
+  }
+}
