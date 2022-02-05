@@ -31,37 +31,58 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
     <!-- custom css import  -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#"
-          ><img src="images/logo.png" alt="logo"
-        /></a>
-        <button class="menuToggle" id="menuToggle">
-          <i class="fas fa-bars"></i>
-        </button>
-      </div>
-    </nav>
+    <header class="header">
+      <nav class="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img src="images/logo.png" alt="logo"
+          /></a>
+          <button class="menuToggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </nav>
 
-    <!-- menu area  -->
-    <div class="menu-area" id="menuArea">
-      <button class="menuClose" id="menuClose">
-        <i class="fas fa-times"></i>
-      </button>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div>
+      <!-- menu area  -->
+      <div class="menu-area" id="menuArea">
+        <button class="menuClose" id="menuClose">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="container">
+        <div class="row hero d-flex flex-column justify-content-center">
+          <div class="col-md-6 left-side">
+            <h1>Download our app and enjoy</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur
+              autem harum excepturi ex, voluptas expedita sunt maiores ab
+              aperiam natus deleniti dicta modi quasi voluptatibus
+              exercitationem veritatis. Porro, tempora doloremque?
+            </p>
+            <a href="#" class="btn download">Download App</a>
+            <a href="#" class="btn watch"
+              ><i class="fas fa-play"></i> &nbsp; Watch Video</a
+            >
+          </div>
+          <div class="col-md-6 right-side"></div>
+        </div>
+      </div>
+    </header>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script

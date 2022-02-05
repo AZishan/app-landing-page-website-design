@@ -1,4 +1,5 @@
 $color1: #7358e9;
+$color2: #ffffff;
 html {
   font-size: 10px;
   scroll-behavior: smooth;
@@ -6,45 +7,82 @@ html {
 body {
   font-family: "Roboto", sans-serif;
 }
-// navbar icon design
-.menuToggle {
-  background: transparent;
-  color: #fff;
-  font-size: 2rem;
-  border: none;
-}
-// Menu on click
-.menu-area {
-  background: #000;
-  height: 100%;
+.header {
+  background: url("images/header-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
   width: 100%;
-  top: 0;
-  position: fixed;
-  display: none;
-  justify-content: center;
-  align-items: center;
-  .menuClose {
-    position: fixed;
-    top: 5%;
-    right: 5%;
+  height: 100vh;
+  .hero {
+    .left-side {
+      h1 {
+        color: $color2;
+        font-weight: 700;
+        font-size: 7rem;
+        margin-bottom: 1rem;
+      }
+      p {
+        color: $color2;
+        font-size: 1.8rem;
+        line-height: 3rem;
+        padding-bottom: 1rem;
+      }
+      .download {
+        background: #ff8f9f;
+        color: $color2;
+        padding: 1rem 2rem;
+        font-size: 1.8rem;
+        font-weight: 500;
+      }
+      .watch {
+        color: $color2;
+        padding: 1rem 2rem;
+        font-size: 1.8rem;
+        font-weight: 500;
+      }
+    }
+  }
+  // menu button
+  .menuToggle {
     background: transparent;
     color: #fff;
-    padding: 0.3rem 0.7rem;
     font-size: 2rem;
     border: none;
   }
-  ul {
-    li {
-      list-style: none;
+  // on click menu
+  .menu-area {
+    background: #000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    .menuClose {
+      position: fixed;
+      top: 5%;
+      right: 5%;
+      background: transparent;
+      color: #fff;
+      padding: 0.3rem 0.7rem;
       font-size: 2rem;
-      padding: 1rem;
-      text-align: center;
-      a {
-        color: #fff;
-        text-decoration: none;
-        transition: 0.3s;
-        &:hover {
-          color: $color1;
+      border: none;
+    }
+    ul {
+      li {
+        list-style: none;
+        font-size: 2rem;
+        padding: 1rem;
+        text-align: center;
+        a {
+          color: #fff;
+          text-decoration: none;
+          transition: 0.3s;
+          &:hover {
+            color: $color1;
+          }
         }
       }
     }
