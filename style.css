@@ -5,6 +5,7 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
+  background: #fcfcfc;
 }
 
 .header {
@@ -69,6 +70,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
 }
 
 .header .menu-area .menuClose {
@@ -98,5 +103,139 @@ body {
 
 .header .menu-area ul li a:hover {
   color: #7358e9;
+}
+
+.features {
+  padding: 5rem;
+  margin-top: 5rem;
+}
+
+.features .f-box {
+  background: #fff;
+  padding: 2rem 4rem;
+  margin: 1rem 3rem;
+  -webkit-box-shadow: 0 0 5px #e9e8e8;
+          box-shadow: 0 0 5px #e9e8e8;
+}
+
+.features .f-box i {
+  font-size: 3rem;
+}
+
+.features .f-box .icon-box-1,
+.features .f-box .icon-box-2,
+.features .f-box .icon-box-3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  padding: 1.5rem;
+}
+
+.features .f-box .icon-box-1 {
+  background: #ffdee1;
+  color: #ff5967;
+}
+
+.features .f-box .icon-box-2 {
+  background: #dad6ff;
+  color: #5f50ff;
+}
+
+.features .f-box .icon-box-3 {
+  background: #ffd6c8;
+  color: #ff6835;
+}
+
+.features .f-box h3 {
+  font-size: 2.4rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+.features .f-box p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+}
+
+.feature-2 {
+  padding: 5rem;
+}
+
+.feature-2 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feature-2 .box-left img {
+  max-width: 90%;
+  height: auto;
+}
+
+.feature-2 .box-right {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.feature-2 .box-right img {
+  width: 17%;
+  height: auto;
+}
+
+.feature-2 .box-right h2 {
+  font-size: 6rem;
+  line-height: 6rem;
+}
+
+.feature-2 .box-right p {
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.feature-2 .box-right ul {
+  padding: 0;
+}
+
+.feature-2 .box-right ul li {
+  font-size: 1.8rem;
+  line-height: 4.8rem;
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.feature-2 .box-right ul li i {
+  font-size: 1rem;
+  color: #ff8f9f;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.feature-2 .box-right .btn-learn-more {
+  background: #ff8f9f;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
 /*# sourceMappingURL=style.css.map */
