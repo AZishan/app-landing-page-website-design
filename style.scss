@@ -19,7 +19,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom left;
-  width: 100%;
   height: 100vh;
   .hero {
     .left-side {
@@ -148,6 +147,7 @@ body {
     }
   }
 }
+
 // ========== //
 // feature-2 //
 // ========== //
@@ -159,7 +159,7 @@ body {
   }
   .box-left {
     img {
-      max-width: 90%;
+      max-width: 100%;
       height: auto;
     }
   }
@@ -180,6 +180,7 @@ body {
     p {
       font-size: 1.8rem;
       font-family: $poppins;
+      line-height: 3rem;
     }
     ul {
       padding: 0;
@@ -197,6 +198,121 @@ body {
       }
     }
     .btn-learn-more {
+      background: #ff8f9f;
+      color: $color2;
+      padding: 1rem 2rem;
+      font-size: 1.8rem;
+      font-weight: 500;
+    }
+  }
+}
+
+// ========== //
+// feature-3 //
+// ========== //
+.feature-3 {
+  padding: $section-padding;
+  .box {
+    display: flex;
+    align-items: center;
+  }
+  .box-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      max-width: 50%;
+      height: auto;
+    }
+  }
+  .box-left {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    img {
+      width: 17%;
+      height: auto;
+    }
+    h2 {
+      font-size: 6rem;
+      line-height: 6rem;
+    }
+    p {
+      font-size: 1.8rem;
+      font-family: $poppins;
+    }
+    .app-features {
+      i {
+        font-size: 3rem;
+      }
+      .icon-box-1,
+      .icon-box-2,
+      .icon-box-3 {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        padding: 1.5rem;
+      }
+      .icon-box-1 {
+        background: #ffdee1;
+        color: #ff5967;
+      }
+      .icon-box-2 {
+        background: #dad6ff;
+        color: #5f50ff;
+      }
+      .icon-box-3 {
+        background: #ffd6c8;
+        color: #ff6835;
+      }
+      .row {
+        .col-auto {
+          display: flex;
+          align-items: center;
+        }
+        h5 {
+          font-size: 2.4rem;
+          font-weight: 500;
+          font-family: $poppins;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+// ========== //
+// get - app //
+// ========= //
+.get-app {
+  background: url("images/bg-foot-2.png");
+  background-position: bottom center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: $section-padding;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .box {
+    h2 {
+      font-family: $roboto;
+      font-size: 6rem;
+      font-weight: 700;
+      color: $color2;
+      margin-bottom: 2rem;
+    }
+    p {
+      font-size: 1.8rem;
+      font-family: $poppins;
+      line-height: 3rem;
+      color: $color2;
+      margin-bottom: 2rem;
+    }
+    .btn {
       background: #ff8f9f;
       color: $color2;
       padding: 1rem 2rem;

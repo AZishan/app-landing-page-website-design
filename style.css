@@ -13,7 +13,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom left;
-  width: 100%;
   height: 100vh;
 }
 
@@ -178,7 +177,7 @@ body {
 }
 
 .feature-2 .box-left img {
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -211,6 +210,7 @@ body {
 .feature-2 .box-right p {
   font-size: 1.8rem;
   font-family: "Poppins", sans-serif;
+  line-height: 3rem;
 }
 
 .feature-2 .box-right ul {
@@ -232,6 +232,163 @@ body {
 }
 
 .feature-2 .box-right .btn-learn-more {
+  background: #ff8f9f;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.feature-3 {
+  padding: 5rem;
+}
+
+.feature-3 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feature-3 .box-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feature-3 .box-right img {
+  max-width: 50%;
+  height: auto;
+}
+
+.feature-3 .box-left {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.feature-3 .box-left img {
+  width: 17%;
+  height: auto;
+}
+
+.feature-3 .box-left h2 {
+  font-size: 6rem;
+  line-height: 6rem;
+}
+
+.feature-3 .box-left p {
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.feature-3 .box-left .app-features i {
+  font-size: 3rem;
+}
+
+.feature-3 .box-left .app-features .icon-box-1,
+.feature-3 .box-left .app-features .icon-box-2,
+.feature-3 .box-left .app-features .icon-box-3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  padding: 1.5rem;
+}
+
+.feature-3 .box-left .app-features .icon-box-1 {
+  background: #ffdee1;
+  color: #ff5967;
+}
+
+.feature-3 .box-left .app-features .icon-box-2 {
+  background: #dad6ff;
+  color: #5f50ff;
+}
+
+.feature-3 .box-left .app-features .icon-box-3 {
+  background: #ffd6c8;
+  color: #ff6835;
+}
+
+.feature-3 .box-left .app-features .row .col-auto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feature-3 .box-left .app-features .row h5 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+
+.get-app {
+  background: url("images/bg-foot-2.png");
+  background-position: bottom center;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.get-app .box h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 6rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.get-app .box p {
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 3rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.get-app .box .btn {
   background: #ff8f9f;
   color: #ffffff;
   padding: 1rem 2rem;
