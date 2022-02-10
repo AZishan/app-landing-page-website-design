@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", Poppins;
   background: #fcfcfc;
 }
 
@@ -355,7 +355,9 @@ body {
   background: url("images/bg-foot-2.png");
   background-position: bottom center;
   background-size: cover;
-  min-height: 100vh;
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
   padding: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -393,6 +395,175 @@ body {
   color: #ffffff;
   padding: 1rem 2rem;
   font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.get-app .box-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.get-app .box-left img {
+  max-width: 35%;
+}
+
+.faq {
+  padding: 5rem;
+}
+
+.faq .box i {
+  color: #ff5967;
+  background: #ffdee1;
+  border-radius: 50%;
+  font-size: 4.8rem;
+  width: 7rem;
+  height: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.faq .box h2 {
+  font-size: 6rem;
+  line-height: 6rem;
+  margin: 2rem 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.faq .box p {
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 3rem;
+  color: #666666;
+  margin-bottom: 2rem;
+}
+
+.faq .box .accordion-item p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+}
+
+.faq .box .accordion-item .accordion-button {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #ff7588;
+}
+
+.faq .box .accordion-button:not(.collapsed) {
+  background-color: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.faq .box .accordion-button:not(.collapsed) {
+  background-color: transparent;
+}
+
+.faq .box .accordion-item {
+  background-color: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+}
+
+.faq .box .accordion-button:focus {
+  z-index: 3;
+  border-color: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.rating-counts .container {
+  background: #704ad1;
+  background: linear-gradient(49deg, #704ad1 0%, #7561fc 100%);
+  padding: 10rem 2rem;
+  border-radius: 10px;
+}
+
+.rating-counts h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: 4.8rem;
+  color: #ffffff;
+}
+
+.rating-counts p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 4.8rem;
+  color: #ffffff;
+}
+
+.contact {
+  padding: 10rem;
+}
+
+.contact .container {
+  width: 40%;
+}
+
+.contact h2 {
+  font-size: 6rem;
+  line-height: 6rem;
+}
+
+.contact p {
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 3rem;
+}
+
+.contact .btn {
+  background: #ff8f9f;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.footer {
+  background: #000000;
+  padding: 1rem;
+}
+
+.footer .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer i {
+  font-size: 18px;
+  color: #ffffff;
+  margin: 0 .5rem;
+}
+
+.footer p {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
 /*# sourceMappingURL=style.css.map */
