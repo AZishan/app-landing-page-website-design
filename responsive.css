@@ -1,1 +1,147 @@
-/* No CSS *//*# sourceMappingURL=responsive.css.map */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 7px;
+  }
+  .row.hero.d-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .header {
+    padding-bottom: 22rem;
+    text-align: center;
+  }
+  .header .img-fluid {
+    max-width: 70%;
+  }
+  .header .hero .left-side {
+    margin-top: 0;
+  }
+  .header .hero .left-side h1 {
+    font-size: 5rem;
+  }
+  .feature-2 .box-right {
+    margin-top: 1rem;
+  }
+  h2 {
+    font-size: 4rem !important;
+    line-height: 4rem;
+  }
+  .feature-3 .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .feature-3 .row .app-features .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: block;
+  }
+  .feature-3 .row .app-features .row .col-auto {
+    display: inline-block;
+  }
+  .get-app .box-left img {
+    max-width: 60%;
+  }
+  .get-app .box {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .faq .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .col-sm-6 {
+    padding: 2rem;
+  }
+  .contact .container {
+    width: 100%;
+  }
+  .footer .box {
+    margin: .5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+  .row.hero.d-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .header {
+    padding-bottom: 22rem;
+    text-align: center;
+  }
+  .header .img-fluid {
+    max-width: 45%;
+  }
+  .header .hero .left-side {
+    margin-top: 0;
+  }
+  .header .hero .left-side h1 {
+    font-size: 5rem;
+  }
+  .feature-2 .box-right {
+    margin-top: 1rem;
+  }
+  h2 {
+    font-size: 4rem !important;
+    line-height: 4rem;
+  }
+  .feature-3 .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .feature-3 .row .app-features .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: block;
+  }
+  .feature-3 .row .app-features .row .col-auto {
+    display: inline-block;
+  }
+  .get-app .box-left img {
+    max-width: 60%;
+  }
+  .get-app .box {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .faq .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .col-sm-6 {
+    padding: 2rem;
+  }
+  .contact .container {
+    width: 100%;
+  }
+  .footer .box {
+    margin: 0;
+  }
+  .footer p {
+    font-family: "Poppins", sans-serif;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
