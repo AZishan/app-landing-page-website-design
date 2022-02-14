@@ -256,11 +256,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    img {
-      max-width: 50%;
-      height: auto;
-    }
   }
 
   .box-left {
@@ -347,6 +342,11 @@ body {
   justify-content: center;
 
   .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
     h2 {
       font-family: $roboto;
       font-size: 6rem;
@@ -374,7 +374,8 @@ body {
 
   .box-left {
     img {
-      max-width: 35%;
+      max-width: 100%;
+      height: auto;
     }
 
     display: flex;

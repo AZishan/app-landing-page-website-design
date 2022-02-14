@@ -264,11 +264,6 @@ body {
           align-items: center;
 }
 
-.feature-3 .box-right img {
-  max-width: 50%;
-  height: auto;
-}
-
 .feature-3 .box-left {
   height: 100%;
   display: -webkit-box;
@@ -374,6 +369,22 @@ body {
           justify-content: center;
 }
 
+.get-app .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
 .get-app .box h2 {
   font-family: "Roboto", sans-serif;
   font-size: 6rem;
@@ -411,7 +422,8 @@ body {
 }
 
 .get-app .box-left img {
-  max-width: 35%;
+  max-width: 100%;
+  height: auto;
 }
 
 .faq {
